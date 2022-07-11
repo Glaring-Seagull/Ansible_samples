@@ -1,0 +1,10 @@
+{
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible.json#/$defs/playbook": [
+            "file:///c%3A/git_projects/Ansible_practice/Bootstrap.yml",
+            "file:///c%3A/git_projects/Ansible_practice/Apache_role_main.yml",
+            "file:///c%3A/git_projects/Ansible_practice/Apache_install.yml",
+            "file:///c%3A/git_projects/Ansible_practice/Terraform_install.yml"
+        ]
+    }
+}
