@@ -1,0 +1,16 @@
+---
+- hosts: Terraform
+  become: true
+  tasks:
+  - name: install unzip
+    package:
+      name: unzip
+      state: present
+  - name: install terraform
+    unarchive: 
+      src: https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+      dest: /usr/local/bin
+      remote_src: yes
+      mode: 0755
+      owner: root
+      group: root

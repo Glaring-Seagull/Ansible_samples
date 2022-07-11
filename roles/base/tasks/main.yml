@@ -1,0 +1,5 @@
+- name: add Ansible user SSH key
+  tag: always
+  authorized_key:
+    user: ansible
+    key: "{{ ansible_ssh_key }}"
