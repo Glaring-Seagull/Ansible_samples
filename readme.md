@@ -1,1 +1,1 @@
-This is a collection of generic ansible playbooks I've made, usually for proof of concept standups.
+This is a a sample Ansible collection to show off simple playbooks and a role using those playbooks.
